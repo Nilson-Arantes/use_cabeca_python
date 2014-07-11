@@ -11,10 +11,10 @@ def print_lol(the_list, level):
      Um segundo argumento chamado "level" é usado para inserer tabulação
      quando uma lista aninhada é encontrada"""
 
-  for lista_item in the_list:
-    if isinstance(lista_item, list):
-      print_lol(lista_item)
+  for each_item in the_list:
+    if isinstance(each_item, list):
+      print_lol(each_item)
     else:
       for tab_stop in range(level):
         print('\t') 
-      print(lista_item)
+      print(each_item)
