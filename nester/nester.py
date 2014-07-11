@@ -8,7 +8,7 @@ def print_lol(the_list, level):
   """Função para percorrer a lista e mostrar na tela.
      Tem a função print_lol usando isinstance para 
      verificar ser é uma lista
-     Um segund argumento chamado "level" é usado para inserer tabulação
+     Um segundo argumento chamado "level" é usado para inserer tabulação
      quando uma lista aninhada é encontrada"""
 
   for lista_item in the_list:
