@@ -16,6 +16,6 @@ def print_lol(the_list, level):
       print_lol(lista_item)
     else:
       for tab_stop in range(level):
-        print("\t", '')
+        print("\t", end =' ')
 
       print(lista_item)
