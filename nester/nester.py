@@ -4,7 +4,7 @@
 """Módulo para visuzalizar listas aninhadas. 
    Módulo nester.py"""
 
-def print_lol(the_list, level):
+def print_lol(the_list, level=0):
   """Função para percorrer a lista e mostrar na tela.
      Tem a função print_lol usando isinstance para 
      verificar ser é uma lista
