@@ -3,7 +3,7 @@
 
 import os
 
-os.chdir('/home/leonardo/python/use_cabeca_python/aprendendo')
+os.chdir('/home/leonardo/python/use_cabeca_python/aprendendo3')
 try:
   arquivo = open('einstein.txt')
   
