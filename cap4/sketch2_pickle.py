@@ -24,7 +24,7 @@ except IOError:
     print('The datafile is missing!')
 
 try:
-    with open('man_data.txt', 'wb') as man_file, open('other_data.txt', 'wb') as other_file:
+    with open('man_data2.txt', 'wb') as man_file, open('other_data2.txt', 'wb') as other_file:
         pickle.dump(man, man_file)
         pickle.dump(other, other_file)
 except pickle.PickeError as err:
